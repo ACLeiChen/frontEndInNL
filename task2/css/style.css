@@ -1,0 +1,131 @@
+body{
+    background: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: gray;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+header img{
+    max-height: 80%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.navi {
+    border: 1px;
+    padding: 44px;
+    float: right;
+    
+}
+.navi li {
+    display: inline-block;
+    list-style-type: circle;
+}
+.navi li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.navi li a:hover{
+    color: blue;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.article{
+    background: white;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 3px 3px black;
+}
+
+.article span {
+    display: block;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+.article ul {
+    list-style-type: none;
+}
+
+
+.imgs {
+    width: 15%;
+    text-align: center;
+    border: 1px solid silver;
+    margin-top: 2%;
+}
+
+.imgs img{
+    margin: 2%;
+    width: 94%;
+}
+.img_title {
+    display: block;
+    margin-top: 5%;
+}
+.table1 {
+    border-collapse:collapse;
+    width: 100%;
+}
+.trhead {
+    background: black;
+    color: aliceblue;
+}
+.trfoot {
+    background: silver;
+    font-weight: bold;
+}
+
+
+.special_header {
+    border-left: solid 3px silver;
+    padding-left: 5px;
+}
+.table2 {
+    width: 100%;
+    border-collapse:separate;
+    border-spacing:10px;
+
+}
+.rightAlignCell {
+    text-align: right;
+}
+
+.table2 textarea {
+    width: 70%;
+    height: 100px;
+}
+
+.prompt {
+    color: silver;
+    font-size: 12px;
+}
+.submitButton {
+    width: 100%;
+    background: LightSkyBlue;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: AntiqueWhite;
+    border-radius: 2px;
+}
+
+.copyright {
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    box-shadow: 3px 3px silver;
+}
