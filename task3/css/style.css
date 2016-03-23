@@ -3,53 +3,63 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/**for clear float*/
+/*any element needs to clear float needs to inherit this class*/
+.clearFloat:before, .clearFloat:after {
+  content: "";
+  display: table;
+}
+.clearFloat:after {
+  clear: both;
+}
+.clearFloat {
+	*zoom: 1;
+}
+/**for clear float*/
+
+
 .all {
 	background: #eee;
 	margin: 20px;
 	padding: 20px;
+	
 }
-.teamBrief {
+
+/*for every little block*/
+.content {
 	background: white;
 	padding: 20px;
-	margin: 0 20px 20px 0;
-	float: left;
-	width: 200px;
 	border: solid 2px #999;
 }
 
-.teamLogo {
+
+.teamBrief {
+	position: relative;
 	float: left;
+	width: 200px;
+	
 }
 
-.teamName {
-	float: right;
-	margin-top: 0;
+.teamBrief span {
+	position: absolute;
+    right: 20px;
+    top: 20px;
 	font-weight: bold;
 }
 
 .personalLogo {
-	background: white;
-	margin: 0 0 0 20px;
 	float: right;
-	width: 120px;
-	border: solid 2px #999;
+	width: 80px;
 }
 
-.svenLogo {
-	margin: 20px;
-}
 .amLogo {
-	margin: 20px;
+	margin-top: 20px;
 }
 .bhLogo {
-	margin: 20px;
+	margin-top: 20px;
 }
 
 .teamIntro {
-	overflow: hidden;
-	background: white;
-	border: solid 2px #999;
-	padding: 20px;
-	margin: 0 20px 0 20px;
-
+	margin: 0 142px 0 262px;
 }
